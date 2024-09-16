@@ -1,0 +1,21 @@
+{
+  "name": "jetbrains-dark-new-ui",
+  "displayName": "JetBrains Dark (New UI)",
+  "description": "Endeavor to replicate the default dark theme from new versions of JetBrains IDEs (like PyCharm and WebStorm)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "JetBrains Dark (New UI)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JetBrains Dark (New UI)-color-theme.json"
+      }
+    ]
+  }
+}
