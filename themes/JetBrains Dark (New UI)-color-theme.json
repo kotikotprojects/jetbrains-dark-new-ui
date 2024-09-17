@@ -66,7 +66,9 @@
 			"name": "Keyword control flow",
 			"scope": [
 				"keyword.control",
-				"keyword.other"
+				"keyword.other",
+				"keyword.operator.logical",
+				"keyword.operator.new",
 			],
 			"settings": {
 				"foreground": "#cf8e6d",
