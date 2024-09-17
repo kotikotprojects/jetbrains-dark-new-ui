@@ -2,7 +2,7 @@
   "name": "jetbrains-dark-new-ui",
   "displayName": "JetBrains Dark (New UI)",
   "description": "Endeavor to replicate the default dark theme from new versions of JetBrains IDEs (like PyCharm and WebStorm)",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "Unlicense",
   "repository": "https://github.com/kotikotprojects/jetbrains-dark-new-ui",
   "publisher": "zxchhh",
