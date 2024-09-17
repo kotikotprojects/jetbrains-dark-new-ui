@@ -16,8 +16,8 @@
         "titleBar.activeBackground": "#2b2d30",
         "gitDecoration.ignoredResourceForeground": "#c69568",
         "gitDecoration.modifiedResourceForeground": "#699ce2",
-        "editor.findMatchBackground": "#373b39",
-        "editor.findMatchHighlightBackground": "#373b39a2",
+        "editor.findMatchBackground": "#ffffff00",
+        "editor.findMatchHighlightBackground": "#373b39b6",
         "editorLineNumber.foreground": "#4b5059",
         "editorSuggestWidget.background": "#2b2d30",
         "editorSuggestWidget.selectedBackground": "#43454a",
@@ -133,6 +133,15 @@
             "scope": ["storage.type", "storage.modifier"],
             "settings": {
                 "foreground": "#cf8e6d"
+            }
+        },
+        {
+            "name": "String storage type",
+            "scope": [
+                "storage.type.string"
+            ],
+            "settings": {
+                "foreground": "#6aab73",
             }
         },
         {
