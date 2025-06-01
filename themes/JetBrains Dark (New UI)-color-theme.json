@@ -236,6 +236,25 @@
 			"settings": {
 				"foreground": "#cf8e6d",
 			}
-		}
+		},
+        {
+            "name": "Self Variable",
+            "scope": [
+                "variable.language.special.self.python",
+                "variable.parameter.function.language.special.self.python"
+            ],
+            "settings": {
+                "foreground": "#94558d"
+            }
+        },
+        {
+            "name": "Special names",
+            "scope": [
+                "support.function.magic.python"
+            ],
+            "settings": {
+                "foreground": "#b200b2"
+            }
+        }
     ]
 }
