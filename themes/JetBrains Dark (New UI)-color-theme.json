@@ -87,8 +87,15 @@
             }
         },
         {
-            "name": "Format placeholder",
-            "scope": ["constant.character.format.placeholder"],
+            "name": "Escape character",
+            "scope": ["constant.character.escape"],
+            "settings": {
+                "foreground": "#cf8e6d"
+            }
+        },
+        {
+            "name": "F-string braces",
+            "scope": ["meta.fstring.python constant.character.format.placeholder"],
             "settings": {
                 "foreground": "#cf8e6d"
             }
