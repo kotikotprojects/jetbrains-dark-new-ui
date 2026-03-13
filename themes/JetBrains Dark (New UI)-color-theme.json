@@ -108,6 +108,20 @@
             }
         },
         {
+            "name": "Embedded section braces (mostly Elixir)",
+            "scope": ["punctuation.section.embedded"],
+            "settings": {
+                "foreground": "#cf8e6d"
+            }
+        },
+        {
+            "name": "Embedded section content (mostly Elixir)",
+            "scope": ["meta.embedded.line"],
+            "settings": {
+                "foreground": "#bcbec4"
+            }
+        },
+        {
             "name": "Function meta storage",
             "scope": ["storage.type.function"],
             "settings": {
@@ -119,6 +133,13 @@
             "scope": ["entity.name.function"],
             "settings": {
                 "foreground": "#56a8f5"
+            }
+        },
+        {
+            "name": "Function call",
+            "scope": ["entity.name.function.call"],
+            "settings": {
+                "foreground": "#bcbec4"
             }
         },
         {
