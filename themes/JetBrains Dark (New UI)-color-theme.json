@@ -59,7 +59,9 @@
                 "keyword.control",
                 "keyword.other",
                 "keyword.operator.logical",
-                "keyword.operator.new"
+                "keyword.operator.new",
+                "keyword.storage",
+                "keyword.default"
             ],
             "settings": {
                 "foreground": "#cf8e6d"
@@ -138,6 +140,13 @@
         {
             "name": "Function call",
             "scope": ["entity.name.function.call"],
+            "settings": {
+                "foreground": "#bcbec4"
+            }
+        },
+        {
+            "name": "Function (zig-specific)",
+            "scope": ["entity.name.function.zig"],
             "settings": {
                 "foreground": "#bcbec4"
             }
