@@ -33,7 +33,11 @@
         },
         {
             "name": "Quoted String",
-            "scope": ["string.quoted", "string.template", "markup.inline.raw.string"],
+            "scope": [
+                "string.quoted",
+                "string.template",
+                "markup.inline.raw.string"
+            ],
             "settings": {
                 "foreground": "#6aab73"
             }
@@ -83,7 +87,10 @@
         },
         {
             "name": "Decorator",
-            "scope": ["entity.name.function.decorator", "meta.function.decorator.python support.type.python"],
+            "scope": [
+                "entity.name.function.decorator",
+                "meta.function.decorator.python support.type.python"
+            ],
             "settings": {
                 "foreground": "#b3ae60"
             }
@@ -104,7 +111,9 @@
         },
         {
             "name": "F-string braces",
-            "scope": ["meta.fstring.python constant.character.format.placeholder"],
+            "scope": [
+                "meta.fstring.python constant.character.format.placeholder"
+            ],
             "settings": {
                 "foreground": "#cf8e6d"
             }
@@ -153,7 +162,10 @@
         },
         {
             "name": "Function call named parameters",
-            "scope": ["variable.parameter.function-call", "variable.parameter.class"],
+            "scope": [
+                "variable.parameter.function-call",
+                "variable.parameter.class"
+            ],
             "settings": {
                 "foreground": "#aa4926"
             }
@@ -174,11 +186,9 @@
         },
         {
             "name": "String storage type",
-            "scope": [
-                "storage.type.string"
-            ],
+            "scope": ["storage.type.string"],
             "settings": {
-                "foreground": "#6aab73",
+                "foreground": "#6aab73"
             }
         },
         {
@@ -254,33 +264,31 @@
             }
         },
         {
-			"name": "Links",
+            "name": "Links",
             "scope": [
                 "punctuation.definition.link",
                 "string.other.link",
-				"markup.underline.link",
-				"meta.link"
+                "markup.underline.link",
+                "meta.link"
             ],
             "settings": {
                 "foreground": "#56a8f5"
             }
         },
-		{
-			"name": "YAML entity tag",
-			"scope": [
-				"entity.name.tag.yaml"
-			],
-			"settings": {
-				"foreground": "#cf8e6d",
-			}
-		},
+        {
+            "name": "YAML entity tag",
+            "scope": ["entity.name.tag.yaml"],
+            "settings": {
+                "foreground": "#cf8e6d"
+            }
+        },
         {
             "name": "Self/Cls Variable",
             "scope": [
                 "variable.language.special.self.python",
                 "variable.parameter.function.language.special.self.python",
                 "variable.language.special.cls.python",
-                "variable.parameter.function.language.special.cls.python",
+                "variable.parameter.function.language.special.cls.python"
             ],
             "settings": {
                 "foreground": "#94558d"
@@ -288,9 +296,7 @@
         },
         {
             "name": "Special names",
-            "scope": [
-                "support.function.magic.python"
-            ],
+            "scope": ["support.function.magic.python"],
             "settings": {
                 "foreground": "#b200b2"
             }
