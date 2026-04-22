@@ -1,25 +1,30 @@
 {
-  "name": "jetbrains-dark-new-ui",
-  "displayName": "JetBrains Dark (New UI)",
-  "description": "Endeavor to replicate the default dark theme from new versions of JetBrains IDEs (like PyCharm and WebStorm)",
-  "version": "1.1.7",
-  "license": "Unlicense",
-  "repository": "https://github.com/kotikotprojects/jetbrains-dark-new-ui",
-  "publisher": "zxchhh",
-  "engines": {
-    "vscode": "^1.93.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "icon": "images/logo.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "JetBrains Dark (New UI)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/JetBrains Dark (New UI)-color-theme.json"
-      }
-    ]
-  }
+    "name": "jetbrains-dark-new-ui",
+    "displayName": "JetBrains Dark (New UI)",
+    "description": "Endeavor to replicate the default dark theme from new versions of JetBrains IDEs (like PyCharm and WebStorm)",
+    "version": "1.2.0",
+    "license": "Unlicense",
+    "repository": "https://github.com/kotikotprojects/jetbrains-dark-new-ui",
+    "publisher": "zxchhh",
+    "engines": {
+        "vscode": "^1.93.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "images/logo.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "JetBrains Dark (New UI)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/JetBrains Dark (New UI)-color-theme.json"
+            },
+            {
+                "label": "JetBrains Islands Dark (New UI)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/JetBrains Islands Dark (New UI)-color-theme.json"
+            }
+        ]
+    }
 }
